@@ -1,4 +1,4 @@
-**<h1 style="text-align:center;">NovaFlare</h1>**
+<h1 style="text-align:center; font-weight:bold">NovaFlare</h1>**
 
 <h4 style="text-align:center;">v1.0.0</h4>
 
