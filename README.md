@@ -1,4 +1,4 @@
-<p align="center"><strong>NovaFlare</strong></p>
+<p align="center" style="font-size: 2em; font-weight: bold;">NovaFlare</p>
 
 <p align="center">v1.0.0</p>
 
