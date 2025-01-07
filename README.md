@@ -1,6 +1,10 @@
-<p align="center" style="font-size: 2em; font-weight: bold;">NovaFlare</p>
+<div align="center">
 
-<p align="center">v1.0.0</p>
+# **NovaFlare**
+
+v1.0.0
+
+</div>
 
 ## Design
 
