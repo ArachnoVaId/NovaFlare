@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**<h1 style="text-align:center;">NovaFlare</h1>**
 
-## Getting Started
+<h4 style="text-align:center;">v1.0.0</h4>
 
-First, run the development server:
+## Design
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+_Insert your web design here_
+
+## Docs
+
+_Coming soon_
+
+## Pull & Push Schema
+
+1. Checkout to develop branch
+2. Pull origin develop (awas sampe ga dilakuin)
+3. Create a new branch (Please read the rule below this section)
+4. Checkout to the new branch
+5. Code
+6. Commit (Please follow the commit messages rule)
+7. Pull origin develop
+8. Push origin "your branch name"
+9. Create a new pull request to develop branch and mention me (arya) :v
+10. Done
+
+## Branch Naming
+
+```
+<type>/<short_description>.<your_name>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Branch type:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- feature: saya menambahkan fitur baru
+- fixing: saya memperbaiki fitur
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Contoh: feature/navbar.arya
 
-## Learn More
+## Commit message
 
-To learn more about Next.js, take a look at the following resources:
+```
+<type>(<scope>): <short_summary>
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+example: feat(Homepage): Creating homepage section
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Commit type:
 
-## Deploy on Vercel
+- `ci`: Changes to our CI configuration files and scripts
+- `chore`: Changes to the build process or auxiliary tools and libraries such as documentation
+  generation
+- `docs`: Documentation only changes
+- `ticket`: Changes that are related to a ticket
+- `feat`: A new feature
+- `fix`: A bug fix
+- `perf`: A code change that improves performance
+- `refactor`: A code change that neither fixes a bug nor adds a feature
+- `revert`: Reverts a previous commit
+- `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing
+  semi-colons, etc)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Folder Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+- public: file public (including assets)
+- app : Contain all pages
+- src
+    - templates: al novaflare templates are here
+    - components : all components (layouts, button, navbar, etc)
+    - helpers : pembantu (fetch backend, etc)
+    - hooks : custom hooks
+    - context: custom context
+    - modules: all views
+        - [Page name]
+            - page.js
+```
+
+## Notes
+
+## Author
+
+- Hilmi Dzaki Wismadi
+- Sakti Cahya Buana
+- Polikarpus Arya Pradhanika @mie-intel
