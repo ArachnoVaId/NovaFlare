@@ -12,31 +12,31 @@ export function useTailwindBreakpoint() {
   const [is2Xl, setIs2Xl] = useState(false);
 
   useEffect(() => {
-    if (minWidth === BREAKPOINTS.sm) {
+    if (minWidth && minWidth >= BREAKPOINTS.sm) {
       setIsSm(true);
     } else {
       setIsSm(false);
     }
 
-    if (minWidth === BREAKPOINTS.md) {
+    if (minWidth && minWidth >= BREAKPOINTS.md) {
       setIsMd(true);
     } else {
       setIsMd(false);
     }
 
-    if (minWidth === BREAKPOINTS.lg) {
+    if (minWidth && minWidth >= BREAKPOINTS.lg) {
       setIsLg(true);
     } else {
       setIsLg(false);
     }
 
-    if (minWidth === BREAKPOINTS.xl) {
+    if (minWidth && minWidth >= BREAKPOINTS.xl) {
       setIsXl(true);
     } else {
       setIsXl(false);
     }
 
-    if (minWidth === BREAKPOINTS["2xl"]) {
+    if (minWidth && minWidth >= BREAKPOINTS["2xl"]) {
       setIs2Xl(true);
     } else {
       setIs2Xl(false);
